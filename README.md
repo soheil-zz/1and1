@@ -29,16 +29,18 @@ Yes, now you can run your pretty Python scripts (well actually the ones in this 
 
 #### Register Domain
 
-Usages:
+Usage:
 ```
 python register_domain.py DOMAIN_NAME.COM
 ```
 
 #### Change Nameservers
 
-Usages:
+Usage:
 ```
 python change_dns.py DOMAIN_NAME.COM ns1 ns2 ns3 ns4
+sudo pip install pyvirtualdisplay
+sudo pip install selenium
 ```
 
 You guessed it, I don't even use 1and1 nameservers anymore after their massive DDOS meltdown. I recommend AWS Route 53, it's practicly free and you can change shit using their beautiful UI or API.
